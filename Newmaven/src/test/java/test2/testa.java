@@ -22,7 +22,7 @@ public class testa {
 			driver.findElementByXPath("//input[contains(@aria-label,'Mobile')] ").sendKeys("222222222");
 			driver.findElementByXPath("//input[@autocomplete='new-password']").sendKeys("dddddd");	
 	}
-		@Test(priority=1)		 
+				 
 		public void add() {
 			
 		System.out.println("need to enter more details");
